@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/SamiurRahmanMukul/Hotel-Room-Booking-System.git"
   },
-  "author": "Samiur Rahman Mukul",
+  "author": "Vishweswaran N",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SamiurRahmanMukul/Hotel-Room-Booking-System/issues"
@@ -56,3 +56,4 @@
     "supertest": "^6.3.1"
   }
 }
+

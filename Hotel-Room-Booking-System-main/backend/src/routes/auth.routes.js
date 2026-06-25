@@ -1,8 +1,8 @@
 /**
  * @name Hotel Room Booking System
- * @author Md. Samiur Rahman (Mukul)
- * @description Hotel Room Booking and Management System Software ~ Developed By Md. Samiur Rahman (Mukul)
- * @copyright ©2023 ― Md. Samiur Rahman (Mukul). All rights reserved.
+ * @author Vishweswaran N
+ * @description Hotel Room Booking and Management System Software ~ Developed By Vishweswaran N
+ * @copyright ©2023 ― Vishweswaran N. All rights reserved.
  * @version v0.0.1
  *
  */
@@ -33,3 +33,4 @@ router.route('/auth/verify-email/:token').post(isAuthenticatedUser, isBlocked, e
 router.route('/auth/refresh-token').get(isRefreshTokenValid, refreshToken);
 
 module.exports = router;
+
