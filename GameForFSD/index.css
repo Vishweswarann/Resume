@@ -1,0 +1,13 @@
+.unactive {
+	padding: 15px;
+	text-align: center;
+	border: 1px solid black;
+	width: 50px;
+}
+
+.active {
+	padding: 15px;
+	text-align: center;
+	border: 3px solid red;
+	width: 50px;
+}

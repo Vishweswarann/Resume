@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>FlipZon - Dashboard</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<style>
+		.navbar {
+			margin-bottom: 0;
+		}
+
+		.sidebar {
+			background-color: #f8f8f8;
+			border-right: 1px solid #e7e7e7;
+			height: 100vh;
+			/* Stretches down the full height of the screen */
+			padding-top: 20px;
+		}
+
+		.main-content {
+			padding-top: 20px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">FlipZon</a>
+			</div>
+
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="Flip">
+						<span class="glyphicon glyphicon-log-out"></span> Logout
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container-fluid">
+		<div class="row">
+
+			<div class="col-sm-2 sidebar">
+				<ul class="nav nav-pills nav-stacked">
+					<li class="active"><a href="#">Dashboard</a></li>
+					<li><a href="#">Settings</a></li>
+					<li><a href="#">My Profile</a></li>
+					<li><a href="#">Support</a></li>
+				</ul>
+			</div>
+
+			<div class="col-sm-10 main-content">
+				<h3>Welcome to FlipZon</h3>
+				<p>Your navigation bar is secured at the top, your links are updated, and you now have a functional
+					sidebar layout on the left.</p>
+			</div>
+
+		</div>
+	</div>
+
+</body>
+
+</html>
